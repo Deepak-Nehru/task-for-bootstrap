@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
+/* Carousel styles */
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Adjust height to maintain image aspect ratio */
+    max-height: 500px; /* Limit max height of carousel images */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #17a2b8;
+    border-radius: 50%;
+}
+
+/* Section styles */
+section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #17a2b8;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff7200;
+}
+
+/* Destination card styles */
+.destination-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.destination-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.destination-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.destination-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.destination-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact form styles */
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Login modal styles */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.modal-body input,
+.modal-body button {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
